@@ -1,0 +1,37 @@
+GENE_IDENTIFIERS_JSON: 'gene_identifiers.json'
+GENE_IDENTIFIERS_SUBSET_START: 0
+GENE_IDENTIFIERS_SUBSET_STOP: 1500
+DATA_CLINICAL_PATIENT_TXT: 'data_clinical_patient.txt'
+GENE_EXPRESSION_MIN: 2
+GENE_EXPRESSION_MAX: 15
+DATA_GENE_EXPRESSION_TXT: 'data_gene_expression.txt'
+
+FAKE_PATIENT_PREFIX: 'Fake-Patient-'
+PATIENT_SIZE: 100
+OS_OPTIONS:
+  - '0:Living'
+  - '1:Deceased'
+  - 'NA'
+DFS_OPTIONS:
+  - '0:DiseaseFree'
+  - '1:Recurred/Progressed'
+  - 'NA'
+OS_MONTHS_MIN: 10
+OS_MONTHS_MAX: 100
+OS_MONTHS_DECIMALS: 2
+DFS_MONTHS_MIN: 15
+DFS_MONTHS_MAX: 80
+DFS_MONTHS_DECIMALS: 2
+AGE_MIN: 10
+AGE_MAX: 100
+AGE_DECIMALS: 0
+SEX_OPTIONS:
+  - 'Male'
+  - 'Female'
+CANCER_TYPE_OPTIONS:
+  - 'Breast Cancer'
+  - 'Prostate Cancer'
+  - 'Pancreatic Cancer'
+  - 'Non-Small Cell Lung Cancer'
+
+PATIENT_ID_COL: 'PATIENT_ID'
